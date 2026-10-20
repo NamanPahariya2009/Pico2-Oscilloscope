@@ -1,10 +1,10 @@
-# 🚀 Raspberry Pi Pico 2 Based Oscilloscope (Scoppy)
+#  Raspberry Pi Pico 2 Based Oscilloscope (Scoppy)
 
 A low-cost, high-performance 2-channel oscilloscope and logic analyzer built with the **Raspberry Pi Pico 2 (RP2350)** and the **Scoppy** firmware.
 
 ![Circuit Diagram](circuit_image.png)
 
-## 🌟 Overview
+##  Overview
 This project turns a $5 Raspberry Pi Pico 2 into a functional oscilloscope that connects to your Android phone or tablet. It leverages the Scoppy firmware (v18) to provide a rich touch-based interface for visualizing analog and digital signals.
 
 ### Key Features
@@ -15,7 +15,7 @@ This project turns a $5 Raspberry Pi Pico 2 into a functional oscilloscope that 
 
 ---
 
-## 🛠️ Hardware Requirements
+##  Hardware Requirements
 - **Microcontroller**: [Raspberry Pi Pico 2](https://www.raspberrypi.com/products/raspberry-pi-pico-2/) (RP2350).
 - **Resistors**:
   - 2x **100kΩ** (Input protection for Ch1 & Ch2).
@@ -25,7 +25,7 @@ This project turns a $5 Raspberry Pi Pico 2 into a functional oscilloscope that 
 
 ---
 
-## 🔌 Connection Guide
+##  Connection Guide
 Refer to the `circuit_image.png` for the wiring layout:
 
 1. **Channel 1**: Connect to **GP26 (Pin 31)** through a **100kΩ** resistor.
@@ -38,7 +38,7 @@ Refer to the `circuit_image.png` for the wiring layout:
 
 ---
 
-## 💾 Installation
+##  Installation
 
 ### 1. Flash Firmware
 1. Unplug your Raspberry Pi Pico 2 from the computer.
@@ -54,14 +54,11 @@ Refer to the `circuit_image.png` for the wiring layout:
 
 ---
 
-## ⚖️ License & Attribution
+##  License & Attribution
 - This project utilizes the **Scoppy** firmware developed by **fhdm-dev**.
 - For official documentation, firmware updates, and advanced AFE designs, visit the [Scoppy Website](https://fhdm.xyz/) and [GitHub Repository](https://github.com/fhdm-dev/scoppy).
 
 ---
 
-## 🤝 Contributing
-Feel free to fork this repository, submit pull requests, or open issues for hardware improvements (like adding a proper Analog Front-End).
-
 ---
-*Created with ❤️ for the electronics hobbyist community.*
+*Created with ❤️ for the IoT community.*
